@@ -1,0 +1,39 @@
+/* Añadir los estilos necesarios para que la página web se muestre como en la imagen */
+table{
+    width: 100%;
+}
+h2+p {
+    font-weight: bold;
+    font-style: oblique;
+}
+#consejo{
+    background-color: palegoldenrod;
+    color: rebeccapurple;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#textolinea {
+    text-transform: uppercase;   
+    background-color: rosybrown;
+    color: slateblue;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+}
+h3 {
+    background-color: saddlebrown;
+    color: palegoldenrod;
+}
+.clase {
+    font-style: oblique;
+    color: rebeccapurple;
+}
+h4.clase {
+    font-style: oblique;
+    color: rebeccapurple;
+}
+#idparaestilo {
+    background-color: mediumslateblue;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
