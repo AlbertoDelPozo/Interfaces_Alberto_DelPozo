@@ -1,0 +1,42 @@
+/* Añadir estilos de tablas */
+.cabecera {
+    height: 60px;
+    vertical-align: bottom;
+    background-image: url('imagenes/fondo_gris.gif');
+    
+}
+.par {
+    background-color: #FFFF66;
+}
+table, td, tr, th{
+    vertical-align: bottom;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75px;
+}
+[scope="row"] {
+    height: 60px;
+    background: #E6F3FF;
+    vertical-align: bottom;    
+}
+.euro {
+    background-image: url("imagenes/euro.png");
+    background-repeat: no-repeat;
+
+}
+.dolar {
+    background-image: url("imagenes/dolar.png");
+    background-repeat: no-repeat;
+}
+.libra {
+    background-image: url("imagenes/libra.png");
+    background-repeat: no-repeat;
+}
+.yen {
+    background-image: url("imagenes/yen.png");
+    background-repeat: no-repeat;
+}
+tr:hover{
+    background-color: #FFFFCC;
+}
