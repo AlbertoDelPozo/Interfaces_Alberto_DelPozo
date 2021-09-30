@@ -1,0 +1,12 @@
+/* CSS con las propiedades indicadas en el ejercicio */
+body{
+    background-image:url('madrid.jpg') ;
+    background-repeat: repeat;
+}
+div#cdr{
+    height: 200px;
+    width: 200px;
+    background-image: url("logo.png");
+    overflow: scroll;
+    box-shadow: 10px 10px 5px #000;
+}
