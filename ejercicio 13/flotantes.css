@@ -1,0 +1,33 @@
+/* Añadir las propiedades float y clear para lograr el objetivo del ejercicio */
+	
+span.negrita{
+    font-weight: bold;
+}
+.derecha {
+    width: 3rem;
+    color: #F9F6C3;
+    background-color: #789498;
+    text-align: center;
+    font-weight: bold;
+    margin: 2px;
+    padding: 5px;
+    border: 2px solid #123D43;
+    float: right;
+}
+.estrecho {
+    height: 8rem;			
+}
+.derechanoafectado {
+    color: #F9DDC3;
+    background-color: #31174A;
+    text-align: center;
+    font-weight: bold;		
+    float: right;
+    clear: both;
+}
+.izquierda {
+    background-color: #789498;
+    height: 6rem;
+    margin: 2px;
+    float: left;
+}		
