@@ -1,0 +1,54 @@
+#contenedor{
+    width: 900px;
+    height: 650px;
+    border: 1px solid black;
+    box-sizing: content-box;
+    overflow: auto;
+    padding: 0.5em;
+}
+.fila1 {
+    width: calc(33% - 1em);
+    height: 200px;
+    border: 1px solid black;
+    margin: 0.5em;
+    float: left;
+    background-color: white;
+    box-sizing: border-box;
+    
+
+}
+.fila2 {
+    width: calc(33% - 1em);
+    height: 200px;
+    border: 1px solid black;
+    margin: 0.5em;
+    float: left;
+    background-color: green;
+    box-sizing: border-box;
+}
+.fila3 {
+    width: calc(33% - 1em);
+    height: 200px;
+    border: 1px solid black;
+    margin: 0.5em;
+    float: left;
+    background-color: blue;
+    box-sizing: border-box;
+}
+.fila1:nth-child(2n) {
+    display: inline;
+    visibility: hidden;
+
+}
+.fila2:nth-child(2n+1){
+    display: inline;
+    visibility: hidden;
+}
+.fila3:nth-child(2n) {
+    display: inline;
+    visibility: hidden;
+}
+.fila3:nth-last-child(1) {
+    display: inline;
+    visibility: hidden;
+}
