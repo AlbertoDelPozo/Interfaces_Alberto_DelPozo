@@ -1,0 +1,36 @@
+div#contenedor {
+    width: 80%;
+    height: 100px;
+    background-image: linear-gradient(green 85%, rgb(196, 196, 0) );
+    border-radius: 10px;
+    padding: 1em 1em 0em 2em;
+    
+
+}
+div#info {
+    font-weight: bold;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 2px 2px white;
+}
+div#enla {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div.acc {
+    height: 20px;
+    width: 100px;
+    border: 1px rgb(0, 0, 0);
+    float: right;
+    margin: 2px;
+    background: radial-gradient(white 50%, rgb(196, 196, 0)) 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    
+}
