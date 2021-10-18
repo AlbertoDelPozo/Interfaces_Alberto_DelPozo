@@ -1,0 +1,32 @@
+div#contenedor{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    height: 100px;
+    width: 60%;
+    align-items: flex-end;
+    margin-bottom: 2em;
+}
+div.sub > div {
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+}
+div#contenedor2{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    height: 100px;
+    width: 60%;
+    align-items: flex-end;
+
+}
+div.sub2 > div {
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+}
