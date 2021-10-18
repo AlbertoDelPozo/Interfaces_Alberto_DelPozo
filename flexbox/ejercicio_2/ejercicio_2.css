@@ -1,0 +1,18 @@
+div#contenedor{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    background-color: aquamarine;
+    height: 400px;
+    width: 60%;
+    align-items: center;
+    /*align-items: flex-end;*/
+    margin-bottom: 2em;
+}
+div.sub > div {
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+}
