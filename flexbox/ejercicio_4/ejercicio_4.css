@@ -1,0 +1,89 @@
+div#contenedor1 {
+    height: 75px;
+    width: 500px;
+    background-color: grey;
+    border: 1px solid turquoise;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+div.sub > div {
+    height: 35px;
+    width: 80px;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#caja3{
+    align-self: flex-start;
+}
+div#contenedor2{
+    height: 75px;
+    width: 500px;
+    background-color: grey;
+    border: 1px solid turquoise;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+div.sub2 > div {
+    height: 35px;
+    width: 80px;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#caja23 {
+    align-self: flex-end;
+}
+div#contenedor3{
+    height: 75px;
+    width: 500px;
+    background-color: grey;
+    border: 1px solid turquoise;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+div.sub3 > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#caja31 {
+    height: 25px;
+    width: 80px;
+    background-color: orangered;
+    color: white;
+}
+div#caja32 {
+    height: 15px;
+    width: 80px;
+    background-color: orangered;
+    color: white;
+}
+div#caja33 {
+    height: 35px;
+    width: 80px;
+    background-color: orangered;
+    color: white;
+}
+div#caja34{
+    height: 60px;
+    width: 80px;
+    background-color: orangered;
+    color: white;
+}
+div#caja35 {
+    height: 55px;
+    width: 80px;
+    background-color: orangered;
+    color: white;
+}
