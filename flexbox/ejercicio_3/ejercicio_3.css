@@ -1,0 +1,45 @@
+div#contenedor {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(0, 0, 146);
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    margin: 3em;
+    align-content: center;
+}
+div.sub > div{
+    height: 80px;
+    border: solid white 1px;
+    width: 80px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.sub > div:last-child {
+    align-self: center;
+
+}
+div#contenedor2 {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(0, 0, 146);
+    display: flex;
+    margin: 3em;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+div.sub2 > div{
+    height: 80px;
+    border: solid white 1px;
+    width: 80px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.sub2 > div:last-of-type {
+
+    align-self: flex-end;
+}
