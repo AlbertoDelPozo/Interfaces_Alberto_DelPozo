@@ -3,7 +3,7 @@ div#contenedor{
     flex-direction: column-reverse;
     justify-content: space-between;
     background-color: aquamarine;
-    height: 400px;
+    height: 200px;
     width: 60%;
     align-items: center;
     /*align-items: flex-end;*/
@@ -14,5 +14,7 @@ div.sub > div {
     width: 100px;
     color: white;
     background-color: orangered;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
