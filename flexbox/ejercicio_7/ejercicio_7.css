@@ -1,0 +1,150 @@
+div#cabecera {
+    height: 50px;
+    width: 90%;
+    background-color: #002561;
+    display: flex; 
+    padding: 1em;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+div#cabecera > div#falcon {
+    display: flex;
+    color: white;
+    font-size: 2em;
+    align-self: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 8;
+}
+div#cabecera > div.elecabe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 50px;
+    width: 40px;
+    background-color: orangered;
+    align-self: flex-end; 
+    flex-grow: 1;
+}
+div#textos {
+    display: flex;
+    height: fit-content;
+    width: 90%;
+    gap: 2.5em;
+}
+div#textos > div#text1 + h3 {
+    display: flex;
+    height: fit-content;
+    width: 30%;
+}
+div#textos > div#text1 > div.subra {
+    display: flex;
+    height: 2px;
+    width: 375px;
+    border-bottom: 1px solid black;
+    align-self: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+div#textos > div#text2 + h3 {
+    display: flex ;
+    height: fit-content;
+    width: 30%;
+}
+div#textos > div#text2 > div.subra {
+    display: flex;
+    height: 2px;
+    width: 375px;
+    border-bottom: 1px solid black;
+    align-self: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+div#textos > div#contenedor {
+    height: 425px;
+    width: 40%;
+    background-color: orange;
+    padding: 1em;
+    margin-left: 25px;
+}
+div#textos > div#contenedor > div#sub1 {
+    height: 200px;
+    background-color: #fc6603;
+    display: flex;
+    margin-bottom: 25px;
+}
+div#textos > div#contenedor > div#sub1 > div#img1 {
+    height: 100px;
+    width: 237.5px;
+    background-color: darkred;
+    display: flex;
+    align-self: flex-start;
+    color: white;
+}
+div#textos > div#contenedor > div#sub1 > div#img2 {
+    height: 100px;
+    width: 237.5px;
+    background-color: darkred;
+    display: flex;
+    align-self: flex-end;
+    color: white;
+}
+div#textos > div#contenedor > div#sub2 {
+    height: 200px;
+    background-color: #fc6603;
+    display: flex;
+}
+div#textos > div#contenedor > div#sub2 > div#img3 {
+    height: 100px;
+    width: 237.5px;
+    background-color: darkred;
+    display: flex;
+    align-self: flex-end;
+    color: white;
+}
+div#textos > div#contenedor > div#sub2 > div#img4 {
+    height: 100px;
+    width: 237.5px;
+    background-color: darkred;
+    display: flex;
+    align-self: flex-start;
+    color: white;
+}
+div#pie {
+    height: 50px;
+    width: 90%;
+    background-color: #002561;
+    display: flex; 
+    padding: 1em;
+    flex-wrap: nowrap;
+}
+div#pie > div.elepie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 50px;
+    width: 125px;
+    background-color: orangered;
+    align-self: flex-start; 
+    flex-grow: 1;
+}
+div#pie > div.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 50px;
+    width: 75px;
+    background-color: orangered;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+div#pie > div#espacio {
+    display: flex;
+    height: 50px;
+    width: 100px;
+    flex-grow: 10;
+}
