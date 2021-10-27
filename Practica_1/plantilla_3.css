@@ -1,45 +1,121 @@
-*{
-    margin: 0px;
-    padding: 0px;
+div#contenedor {
+    display: flex;
+    width: 90%;
+    height: 150em;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
-div#cabecera {
-    background-color: rgb(123, 79, 57);
-    font-family: Arial, Helvetica, sans-serif;
+div#contenedor > div#cabecera {
+    width: 100%;
+    height: 15vh;
+    border: black 1px solid;
+    display: flex;
+    background-color: rgb(119, 88, 55);
+}
+div#contenedor > div#cabecera > div#cursos {
     color: white;
     display: flex;
-    height: 200px;
-    width: 100%;
-}
-div#titulo {
-    font-size: 2.5em;
-    padding-top: 2em;
-    padding-left: 1em;
-    display: flex;
-    align-self: flex-start;
     justify-content: center;
     align-items: center;
-    width: 20%;
-
-}
-div#cabecera >  div.subtit {
-    font-size: 1em;
-    align-self: flex-end;
+    margin: 1em;
+    font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 0.25em;
-    margin: 0.5em;
-    width: 40%;
-    align-items: center;
-    justify-content: center;
+    flex-grow: 1;
 }
-div#cabecera > div.subtit:hover {
-    text-decoration: underline;
-
-}
-div#cabecera > div#log {
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
+div#contenedor > div#cabecera > div.indice {
+    color: white;
     display: flex;
-    align-self: center;
+    justify-content: center;
     align-items: flex-end;
-    width: 20%;
+    flex-grow: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.5em;
+    width: 100px;
 }
+div#contenedor > div#cabecera > div.indice:hover {
+    text-decoration: underline;
+}
+div#contenedor > div#cabecera > div#log {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1em;
+}
+div#contenedor > div#contenedor1 {
+    width: 100%;
+    height: 50%;
+    border: black solid 1px;
+    display: flex;
+}
+div#contenedor > div#contenedor1 > div#menuIzq {
+    height: 100%;
+    width: 17.5%;
+    border: solid black 1px;
+    background-color: burlywood;
+}
+div#contenedor > div#contenedor1 > div#menuIzq > div#titMenu {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#contenedor > div#contenedor1 > div#menuIzq > ul > li.subMenu {
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: "> ";
+}
+div#contenedor > div#contenedor1 > div#menuIzq > ul > ul > li {
+    color: white;
+    list-style: none;
+}
+div#contenedor > div#contenedor2 {
+    width: 100%;
+    height: 25%;
+    border: solid black 1px;
+}
+div#contenedor > div#pie {
+    width: 100%;
+    height: 30%;
+    border: black solid 1px;
+}
+div#contenedor > div#contenedor1 > div {
+    height: 100%;
+    width: 82.5%;
+    border: black solid 1px;
+}
+div#contenedor > div#contenedor1 > div#menuDer > div#img {
+    height: 40%;
+    width: 90%;
+    border-bottom: solid black 1px;
+    text-align: center;
+    margin: 1.5em;
+    background: url(curso.jpg) no-repeat center content-box;
+    /*filter: brightness(150%);*/
+    padding: 2em;
+}
+div#contenedor > div#contenedor1 > div#menuDer > div#img > h1 {
+    color: chocolate;
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1em; 
+}
+div#contenedor > div#contenedor1 > div#menuDer > div#img > p {
+    margin: 4rem;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-style: italic;
+    font-weight: bolder;
+}
+div#contenedor > div#contenedor1v > div#menuDer > div#img2 {
+    
+} 
