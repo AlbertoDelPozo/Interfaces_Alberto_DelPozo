@@ -99,7 +99,7 @@ div#contenedor > div#contenedor1 > div#menuDer > div#img {
     border-bottom: solid black 1px;
     text-align: center;
     margin: 1.5em;
-    background: url(curso.jpg) no-repeat center content-box;
+    background: url(img/curso.jpg) no-repeat center content-box;
     /*filter: brightness(150%);*/
     padding: 2em;
 }
