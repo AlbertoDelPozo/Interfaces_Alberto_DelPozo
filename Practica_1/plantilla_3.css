@@ -82,9 +82,10 @@ div#contenedor > div#contenedor2 {
     width: 100%;
     height: 25%;
     border: solid black 1px;
+    display: flex;
 }
 div#contenedor > div#contenedor2 > div#containerIzq {
-    height: 100%;
+    height: 78.5%;
     width: 40%;
     border: 1px solid black;
     text-align: center;
@@ -107,6 +108,24 @@ div#contenedor > div#contenedor2 > div#containerIzq {
     border: 0px;
     width: 20rem;
     height: 2rem;
+}
+.envio {
+    width: 90%;
+    height: 2em;
+    background-color: rgb(119, 88, 55);
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 1em;
+}
+div#contenedor > div#contenedor2 > div#containerDer {
+    height: 89%;
+    width: 60%;
+    border: solid 1px black;
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 div#contenedor > div#pie {
     width: 100%;
