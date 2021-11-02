@@ -24,7 +24,7 @@ div#contenedor > div#cabecera > div#cursos {
     font-family: Arial, Helvetica, sans-serif;
     flex-grow: 1;
 }
-div#contenedor > div#cabecera > div.indice {
+.indice {
     color: white;
     display: flex;
     justify-content: center;
@@ -33,8 +33,6 @@ div#contenedor > div#cabecera > div.indice {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0.5em;
     width: 100px;
-}
-div#contenedor > div#cabecera > div.indice {
     text-decoration: underline;
 }
 div#contenedor > div#cabecera > div#log {
@@ -60,7 +58,7 @@ div#contenedor > div#contenedor1 > div#menuIzq {
     border: solid black 1px;
     background-color: burlywood;
 }
-div#contenedor > div#contenedor1 > div#menuIzq > div.titMenu {
+.titMenu {
     color: white;
     display: flex;
     align-items: center;
@@ -68,13 +66,13 @@ div#contenedor > div#contenedor1 > div#menuIzq > div.titMenu {
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
 }
-div#contenedor > div#contenedor1 > div#menuIzq > ul > li.subMenu {
+ul > li.subMenu {
     color: white;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: "> ";
 }
-div#contenedor > div#contenedor1 > div#menuIzq > ul > ul > li {
+ul > ul > li {
     color: white;
     list-style: none;
 }
@@ -126,11 +124,6 @@ div#contenedor > div#contenedor2 > div#containerDer {
     padding: 2em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-}
-div#contenedor > div#pie {
-    width: 100%;
-    height: 30%;
-    border: black solid 1px;
 }
 div#contenedor > div#contenedor1 > div {
     height: 100%;
@@ -186,7 +179,7 @@ h1#tit {
     align-self: center;
     align-content: center;
     justify-content: center;
-
+    
 }
 div.cursos {
     display: flex;
@@ -195,5 +188,40 @@ div.cursos {
     border: 1px solid black;
     flex-direction: row;
     flex-wrap: wrap;
-    
+}
+div#contenedor > div#pie {
+    width: 100%;
+    height: 30%;
+    border: black solid 1px;
+    background-color: rgb(119, 88, 55);
+    display: flex;
+}
+div > div#pieIzq {
+    height: 100%;
+    width: 30%;
+}
+.indicePie {
+    color: white;
+    font-size: 1.5em;
+    padding: 0.75em 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.indicePie:first-of-type {
+    text-decoration: underline;
+}
+div > div#pieCentro {
+    height: 100%;
+    width: 30%;
+}
+.titMenu2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em;
+    font-size: 1.5em;
+}
+div > div#pieDere {
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    color: white;
 }
