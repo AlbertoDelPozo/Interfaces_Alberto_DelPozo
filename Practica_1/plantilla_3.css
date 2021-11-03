@@ -1,8 +1,7 @@
 div#contenedor {
     display: flex;
     width: 90%;
-    height: 150em;
-    border: 1px solid black;
+    height: 175em;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
@@ -10,7 +9,6 @@ div#contenedor {
 div#contenedor > div#cabecera {
     width: 100%;
     height: 15vh;
-    border: black 1px solid;
     display: flex;
     background-color: rgb(119, 88, 55);
 }
@@ -49,13 +47,11 @@ div#contenedor > div#cabecera > div#log {
 div#contenedor > div#contenedor1 {
     width: 100%;
     height: 50%;
-    border: black solid 1px;
     display: flex;
 }
 div#contenedor > div#contenedor1 > div#menuIzq {
     height: 100%;
     width: 17.5%;
-    border: solid black 1px;
     background-color: burlywood;
 }
 .titMenu {
@@ -79,13 +75,11 @@ ul > ul > li {
 div#contenedor > div#contenedor2 {
     width: 100%;
     height: 25%;
-    border: solid black 1px;
     display: flex;
 }
 div#contenedor > div#contenedor2 > div#containerIzq {
     height: 78.5%;
     width: 40%;
-    border: 1px solid black;
     text-align: center;
     padding: 4rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -120,7 +114,6 @@ div#contenedor > div#contenedor2 > div#containerIzq {
 div#contenedor > div#contenedor2 > div#containerDer {
     height: 89%;
     width: 60%;
-    border: solid 1px black;
     padding: 2em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -128,7 +121,7 @@ div#contenedor > div#contenedor2 > div#containerDer {
 div#contenedor > div#contenedor1 > div {
     height: 100%;
     width: 82.5%;
-    border: black solid 1px;
+
 }
 div#contenedor > div#contenedor1 > div#menuDer > div#img {
     height: 40%;
@@ -167,7 +160,7 @@ div#contenedor > div#contenedor1 > div#menuDer > div#img2 > div#container {
     height: 90%;
     width: 95%;
     align-content: space-between;
-    border: 1px solid black;
+
     align-self: center;
     margin: 2em;
 }
@@ -185,14 +178,12 @@ div.cursos {
     display: flex;
     height: 100%;
     width: 20%;
-    border: 1px solid black;
     flex-direction: row;
     flex-wrap: wrap;
 }
 div#contenedor > div#pie {
     width: 100%;
-    height: 30%;
-    border: black solid 1px;
+    height: 20%;
     background-color: rgb(119, 88, 55);
     display: flex;
 }
@@ -224,4 +215,38 @@ div > div#pieDere {
     width: 40%;
     text-align: center;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pieDere > h2 {
+    font-weight: 700;
+}
+#pieDere > div {
+    width: 90%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+div > #face {
+    background-image: url(img/facebook.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 20%;
+    height: 90%;
+}
+div > #twitter {
+    background-image: url(img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 20%;
+    height: 90%;
+}
+div > #insta {
+    background-image: url(img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 20%;
+    height: 90%;
 }
