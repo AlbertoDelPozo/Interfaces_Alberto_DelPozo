@@ -1,18 +1,14 @@
-div#contenedor {
-    display: flex;
+#contenedor {
     width: 90%;
     height: 175em;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
-div#contenedor > div#cabecera {
+#cabecera {
     width: 100%;
     height: 15vh;
     display: flex;
     background-color: rgb(119, 88, 55);
 }
-div#contenedor > div#cabecera > div#cursos {
+#tusCursos {
     color: white;
     display: flex;
     justify-content: center;
@@ -83,13 +79,11 @@ div#contenedor > div#contenedor2 > div#containerIzq {
     text-align: center;
     padding: 4rem;
     font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid black;
 } 
 .titCursos {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: lighter;
-}
-.texto {
-    padding: 4em;
 }
 .labelForm {
     color: rgb(182, 149, 107);
@@ -123,16 +117,16 @@ div#contenedor > div#contenedor1 > div {
     width: 82.5%;
 
 }
-div#contenedor > div#contenedor1 > div#menuDer > div#img {
+#img {
     height: 40%;
     width: 90%;
     border-bottom: solid black 1px;
     text-align: center;
     margin: 1.5em;
-    background: url(img/curso.jpg) no-repeat center content-box;
-    /*filter: brightness(150%);*/
+    background: url(img/curso.png) no-repeat center content-box ;
     padding: 2em;
 }
+
 div#contenedor > div#contenedor1 > div#menuDer > div#img > h1 {
     color: chocolate;
     font-size: 4em;
@@ -159,8 +153,7 @@ div#contenedor > div#contenedor1 > div#menuDer > div#img2 > div#container {
     flex-wrap: wrap;
     height: 90%;
     width: 95%;
-    align-content: space-between;
-
+    justify-content: space-between;
     align-self: center;
     margin: 2em;
 }
@@ -177,9 +170,44 @@ h1#tit {
 div.cursos {
     display: flex;
     height: 100%;
-    width: 20%;
-    flex-direction: row;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+    background-color: rgb(209, 209, 209);
+}
+#symfony {
+    width: 80%;
+    height: 30%;
+    background-image: url(img/symfony.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#boot {
+    width: 80%;
+    height: 30%;
+    background-image: url(img/bootstrap-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#blue {
+    width: 80%;
+    height: 30%;
+    background-image: url(img/blueprints.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.comprar {
+    height: 7.5%;
+    width: 60%;
+    background-color: saddlebrown;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 div#contenedor > div#pie {
     width: 100%;
