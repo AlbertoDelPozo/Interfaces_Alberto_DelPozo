@@ -85,6 +85,9 @@ div#contenedor > div#contenedor2 > div#containerIzq {
     font-size: 2em;
     font-weight: lighter;
 }
+.titForm {
+    font-size: 3em;
+}
 .labelForm {
     color: rgb(182, 149, 107);
     font-size: 2em;
@@ -104,6 +107,7 @@ div#contenedor > div#contenedor2 > div#containerIzq {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     margin: 1em;
+    align-self: flex-end;
 }
 div#contenedor > div#contenedor2 > div#containerDer {
     height: 89%;
@@ -253,6 +257,7 @@ div > div#pieDere {
     height: 25%;
     display: flex;
     justify-content: space-between;
+    margin-top: 4rem;
 }
 div > #face {
     background-image: url(img/facebook.jpg);
@@ -260,7 +265,7 @@ div > #face {
     background-size: contain;
     background-position: center;
     width: 20%;
-    height: 90%;
+    height: 70%;
 }
 div > #twitter {
     background-image: url(img/twitter.png);
@@ -268,7 +273,7 @@ div > #twitter {
     background-size: contain;
     background-position: center;
     width: 20%;
-    height: 90%;
+    height: 70%;
 }
 div > #insta {
     background-image: url(img/instagram.png);
@@ -276,5 +281,5 @@ div > #insta {
     background-size: contain;
     background-position: center;
     width: 20%;
-    height: 90%;
+    height: 70%;
 }
