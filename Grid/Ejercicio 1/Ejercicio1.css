@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+#contenedor {
+    display: grid;
+}
+.numero {
+    border: 1px solid black;
+    background-color: grey;
+    
+}
+.nombres {
+    border: 1px solid black;
+    background-color: darkorange;
+    
+}
