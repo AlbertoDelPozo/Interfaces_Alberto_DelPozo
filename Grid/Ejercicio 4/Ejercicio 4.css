@@ -8,7 +8,11 @@ body{
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 20vh 1fr 20vh;
 	grid-gap: 5px;
-}
+	grid-template-areas: "none   none  header header header header header header header header none none"
+						 "aside  aside aside  none   main   main   main   main   main   main   main main"
+						 "none   none  none   none   footer footer footer footer none   none   none none";
+
+}		
 
 .item {
 	background: #89ece1;
@@ -18,17 +22,17 @@ body{
 }
 
 .container > header {
-	
+	grid-area: header;
 }
 
 .container > main {
-	
+	grid-area: main;
 }
 
 .container > aside {
-	
+	grid-area: aside;
 }
 
 .container > footer {
-	
+	grid-area: footer;
 }
