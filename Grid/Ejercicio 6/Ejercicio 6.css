@@ -22,3 +22,28 @@
 	background-color: #ccc;
 	color: #444;
 }
+
+.a {
+	grid-column: span 2;
+}
+
+.b {
+	grid-column: 4 / 5;
+}
+
+.c {
+	grid-row: span 2;
+}
+
+.e {
+	grid-column: 2 / 5;
+}
+
+.d {
+	grid-column: 3 / 4;
+	grid-row: 3 / 4;
+}
+
+.f {
+	grid-column: 4 / 5;
+}
