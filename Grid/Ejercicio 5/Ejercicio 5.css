@@ -16,3 +16,19 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+
+.item1 {
+	grid-column: span 2;
+}
+
+.item2 {
+	grid-row: span 2;
+	grid-column: span 2;
+}
+
+.item3 {
+	grid-row: 2 / 4;
+}
+.item6 {
+	grid-column: 3 / 5;
+}
