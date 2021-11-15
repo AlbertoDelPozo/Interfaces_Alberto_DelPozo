@@ -7,6 +7,9 @@ div.container{
   margin: 0 auto;	
   font-size: 16px;
   max-width: 1024px;  
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
 }
 
 div.container nav {
@@ -34,4 +37,21 @@ div.container aside {
   padding: 1em;
   font-size: 1em;
   box-sizing: border-box;
+}
+
+@media all and (max-width: 768px) {
+  div.container article {
+    height: 25rem;
+    background-image: url(img/content-is-like-water-3.jpg);
+  }
+}
+
+@media all and (max-width: 576px) {
+  div.container article {
+    height: 25rem;
+    background-image: url(img/content-is-like-water-1.jpg);
+  }
+  div.container aside {
+    width: 100%;
+  }
 }
