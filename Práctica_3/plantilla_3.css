@@ -1,0 +1,285 @@
+#contenedor {
+    width: 90%;
+    height: 175em;
+}
+#cabecera {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    background-color: rgb(119, 88, 55);
+}
+#tusCursos {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1;
+}
+.indice {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.5em;
+    width: 100px;
+    text-decoration: underline;
+}
+div#contenedor > div#cabecera > div#log {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1em;
+}
+div#contenedor > div#contenedor1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+div#contenedor > div#contenedor1 > div#menuIzq {
+    height: 100%;
+    width: 17.5%;
+    background-color: burlywood;
+}
+.titMenu {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul > li.subMenu {
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: "> ";
+}
+ul > ul > li {
+    color: white;
+    list-style: none;
+}
+div#contenedor > div#contenedor2 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+div#contenedor > div#contenedor2 > div#containerIzq {
+    height: 78.5%;
+    width: 40%;
+    text-align: center;
+    padding: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid black;
+} 
+.titCursos {
+    font-size: 2em;
+    font-weight: lighter;
+}
+.titForm {
+    font-size: 3em;
+}
+.labelForm {
+    color: rgb(182, 149, 107);
+    font-size: 2em;
+}
+.form {
+    background-color: rgb(250, 214, 167);
+    border: 0px;
+    width: 20rem;
+    height: 2rem;
+}
+.envio {
+    width: 90%;
+    height: 2em;
+    background-color: rgb(119, 88, 55);
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 1em;
+    align-self: flex-end;
+}
+div#contenedor > div#contenedor2 > div#containerDer {
+    height: 89%;
+    width: 60%;
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+div#contenedor > div#contenedor1 > div {
+    height: 100%;
+    width: 82.5%;
+
+}
+#img {
+    height: 40%;
+    width: 90%;
+    border-bottom: solid black 1px;
+    text-align: center;
+    margin: 1.5em;
+    background: url(img/curso.png) no-repeat center content-box ;
+    padding: 2em;
+}
+
+div#contenedor > div#contenedor1 > div#menuDer > div#img > h1 {
+    color: chocolate;
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1em; 
+}
+div#contenedor > div#contenedor1 > div#menuDer > div#img > p {
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-style: italic;
+    font-weight: bolder;
+    padding: 1em 3em;
+}
+div#contenedor > div#contenedor1 > div#menuDer > div#img2 {
+    height: 40%;
+    width: 90%;
+    text-align: center;
+    margin: 1.5em;
+    padding: 0.5em;
+} 
+div#contenedor > div#contenedor1 > div#menuDer > div#img2 > div#container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 95%;
+    justify-content: space-between;
+    align-self: center;
+    margin: 2em;
+}
+h1#tit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+div.cursos {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(209, 209, 209);
+}
+#symfony {
+    width: 80%;
+    height: 30%;
+    background-image: url(img/symfony.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#boot {
+    width: 80%;
+    height: 30%;
+    background-image: url(img/bootstrap-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#blue {
+    width: 80%;
+    height: 30%;
+    background-image: url(img/blueprints.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.comprar {
+    height: 7.5%;
+    width: 60%;
+    background-color: saddlebrown;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#contenedor > div#pie {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(119, 88, 55);
+    display: flex;
+}
+div > div#pieIzq {
+    height: 100%;
+    width: 30%;
+}
+.indicePie {
+    color: white;
+    font-size: 1.5em;
+    padding: 0.75em 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.indicePie:first-of-type {
+    text-decoration: underline;
+}
+div > div#pieCentro {
+    height: 100%;
+    width: 30%;
+}
+.titMenu2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em;
+    font-size: 1.5em;
+}
+div > div#pieDere {
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pieDere > h2 {
+    font-weight: 700;
+}
+#pieDere > div {
+    width: 90%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+div > #face {
+    background-image: url(img/facebook.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 20%;
+    height: 70%;
+}
+div > #twitter {
+    background-image: url(img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 20%;
+    height: 70%;
+}
+div > #insta {
+    background-image: url(img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 20%;
+    height: 70%;
+}
