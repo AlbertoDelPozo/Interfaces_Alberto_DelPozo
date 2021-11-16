@@ -16,6 +16,9 @@
 	grid-template-columns: repeat(3, 6rem);
 	grid-template-rows: repeat(2, 6rem);	
 	margin: 2.5rem;
+	display: grid;
+	justify-content: space-between;
+	align-content: space-around;
 }
 
 .box {
