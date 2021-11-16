@@ -1,0 +1,17 @@
+.container {
+    width: 80%;
+    background-color: lightblue;
+    height: fit-content;
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: repeat(6, 2.5rem);
+    grid-template-rows: repeat(2, 9rem);
+    grid-auto-columns: 6rem;
+    grid-auto-flow: column;
+}
+.box {
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+    
+}
