@@ -36,3 +36,26 @@ div.container aside {
   font-size: 1em;
   box-sizing: border-box;
 }
+
+@media all and (min-width: 768px) {
+  div.container article {
+    height: 25rem;
+    background-image: url(img/content-is-like-water-3.jpg);
+    width: 70%;
+  }
+  div.container aside {
+    width: 30%;
+  }
+  div.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  div.container article {
+    height: 31.25rem;
+    background-image: url(img/content-is-like-water-5.jpg);
+  }
+}
