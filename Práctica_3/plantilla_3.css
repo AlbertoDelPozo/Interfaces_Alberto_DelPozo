@@ -294,6 +294,7 @@ div > #insta {
     }
     div#contenedor > div#contenedor1 > div#menuDer > div#img > h1 {
         font-size: 3rem;
+        margin: 5rem;
     }
     div#contenedor > div#contenedor1 > div#menuDer > div#img2 {
         width: 100%;
@@ -302,5 +303,38 @@ div > #insta {
 @media all and (max-width: 768px) {
     .indice {
         display: none;
+    }
+    .titCursos {
+        font-size: 1.5rem;
+        display: inline;
+    }
+    .comprar {
+        font-size: 1em;
+    }
+    #container1 {
+        
+    }
+    .titForm {
+        font-size: 2em;
+    }
+    #email {
+        width: 100%;
+    }
+    #pieIzq {
+        font-size: 0.75rem;
+    }
+    #pieCentro {
+        display: none;
+    }
+    #pieDere {
+        margin-left: 2rem;
+    }
+    #containerDer {
+        display: none;
+        width: 0%;
+    }
+    #containerIzq {
+        width: 100%;
+        border: none;
     }
 }
