@@ -283,7 +283,9 @@ div > #insta {
     width: 20%;
     height: 70%;
 }
-
+.desplegable {
+    display: none;
+}
 /* MODIFICACIONES PARA LA PRÁCTICA */
 @media all and (max-width: 1020px) {
     #menuIzq {
@@ -329,12 +331,23 @@ div > #insta {
     #pieDere {
         margin-left: 2rem;
     }
-    #containerDer {
-        display: none;
-        width: 0%;
+    .titForm {
+        font-size: 1.5rem;
     }
-    #containerIzq {
-        width: 100%;
-        border: none;
+    div#contenedor > div#contenedor2 {
+        display: none;
+    }
+    .desplegable {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .boton {
+        background-color: rgb(119, 88, 55);
+        height: 4rem;
+        width: 10rem;
+        color: white;
+        border: none; 
+        padding: 10px;
     }
 }
