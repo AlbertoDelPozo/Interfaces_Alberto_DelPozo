@@ -39,3 +39,22 @@ div.container aside {
   box-sizing: border-box;
   grid-area: aside; /* Importante para resolver el ejercicio */
 }
+
+@media all and (min-width: 768px) {
+  div.container {
+    display: grid;
+    grid-template-areas: "nav     nav     nav     nav"
+                         "article article article aside" 
+                         "article article article .....";
+  }
+  div.container article{
+    height: 25rem;
+    background-image: url(img/content-is-like-water-3.jpg);
+  }
+}
+@media all and (min-width: 1200px) {
+  div.container article {
+    height: 31.25rem;
+    background-image: url(img/content-is-like-water-5.jpg);
+  }
+}

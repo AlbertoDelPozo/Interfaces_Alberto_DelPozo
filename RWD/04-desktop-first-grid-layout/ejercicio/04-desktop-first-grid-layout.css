@@ -37,7 +37,7 @@ div.container aside {
   grid-area: aside; /* Importante para resolver el ejercicio */
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 578px) {
   div.container {
     display: grid;
     grid-template-areas: "nav     nav     nav     nav"
@@ -48,7 +48,7 @@ div.container aside {
     background-image: url(img/content-is-like-water-3.jpg);
   }
 }
-@media all and (min-width: 576px) {
+@media all and (min-width: 768px) {
   div.container article {
     background-image: url(img/content-is-like-water-5.jpg);
   }
