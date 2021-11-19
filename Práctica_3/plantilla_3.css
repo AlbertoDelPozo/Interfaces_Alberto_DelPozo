@@ -1,5 +1,5 @@
 #contenedor {
-    width: 90%;
+    width: 100%;
     height: 250rem;
 }
 #cabecera {
@@ -283,9 +283,7 @@ div > #insta {
     width: 20%;
     height: 70%;
 }
-.desplegable {
-    display: none;
-}
+
 /* MODIFICACIONES PARA LA PRÁCTICA */
 @media all and (max-width: 1020px) {
     #menuIzq {
@@ -337,17 +335,12 @@ div > #insta {
     div#contenedor > div#contenedor2 {
         display: none;
     }
-    .desplegable {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+}
+@media all and (max-width: 578px) {
+    div#contenedor > div#contenedor1 > div#menuDer > div#img > h1  {
+        font-size: 2.5rem;
     }
-    .boton {
-        background-color: rgb(119, 88, 55);
-        height: 4rem;
-        width: 10rem;
-        color: white;
-        border: none; 
-        padding: 10px;
+    div#contenedor > div#contenedor1 > div#menuDer > div#img > p {
+        font-size: 1rem;
     }
 }
