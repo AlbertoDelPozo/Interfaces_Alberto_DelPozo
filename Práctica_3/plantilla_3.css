@@ -147,7 +147,7 @@ div#contenedor > div#contenedor1 > div#menuDer > div#img > p {
 }
 div#contenedor > div#contenedor1 > div#menuDer > div#img2 {
     height: 40%;
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: 1.5em;
     padding: 0.5em;
@@ -311,9 +311,6 @@ div > #insta {
     .comprar {
         font-size: 1em;
     }
-    #container1 {
-        
-    }
     .titForm {
         font-size: 2em;
     }
@@ -338,9 +335,12 @@ div > #insta {
 }
 @media all and (max-width: 578px) {
     div#contenedor > div#contenedor1 > div#menuDer > div#img > h1  {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     div#contenedor > div#contenedor1 > div#menuDer > div#img > p {
         font-size: 1rem;
+    }
+    div#contenedor > div#contenedor2 > div#containerDer {
+        width: 100%;
     }
 }
