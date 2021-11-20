@@ -1,6 +1,7 @@
 #contenedor {
     width: 100%;
     height: 250rem;
+    min-width: 362px;
 }
 #cabecera {
     width: 100%;
@@ -284,6 +285,9 @@ div > #insta {
     height: 70%;
 }
 
+/* HE UTILIZADO EL INSPECTOR DE ELEMENTOS CON LA RESOLUCIÓN DEL IPHONE X*/
+/* REALICÉ LA PRACTICA ORIENTÁNDOLA A DESKTOP FIRST Y ME HE DADO CUENTA QUE HAY QUE PRESCINDIR DE ALGUNA COSA COMO LOS FORMULARIOS*/
+/* PARA LOS FORMULARIOS ME HUBIERA GUSTADO CREAR UN BOTON O MENÚ DESPLEGABLE PARA QUE EL USUARIO PUDIERA PINCHAR Y EN OTRA PAGINA PODER HACER LOS FOMULARIOS*/
 /* MODIFICACIONES PARA LA PRÁCTICA */
 @media all and (max-width: 1020px) {
     #menuIzq {
@@ -324,7 +328,8 @@ div > #insta {
         display: none;
     }
     #pieDere {
-        margin-left: 2rem;
+        text-align: center;
+        margin-left: 3rem;
     }
     .titForm {
         font-size: 1.5rem;
@@ -336,11 +341,28 @@ div > #insta {
 @media all and (max-width: 578px) {
     div#contenedor > div#contenedor1 > div#menuDer > div#img > h1  {
         font-size: 2rem;
+        margin-bottom: 0em;
     }
     div#contenedor > div#contenedor1 > div#menuDer > div#img > p {
         font-size: 1rem;
     }
     div#contenedor > div#contenedor2 > div#containerDer {
         width: 100%;
+    }
+    div.cursos {
+        height: 40%;
+        width: 100%;
+        padding: 0.5rem;
+    }
+    div#contenedor > div#contenedor1 > div#menuDer > div#img{
+        margin: 0px;
+    }
+    div#contenedor > div#contenedor1 > div#menuDer > div#img2 {
+        margin: 0px;
+    }
+    div#contenedor > div#contenedor1 > div#menuDer > div#img2 > div#container {
+        margin: 1em;
+        width: 100%;
+        gap: 1rem;
     }
 }
