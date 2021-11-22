@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+div.container {
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 1em;
+    grid-template-columns: 10% repeat(auto);
+}
