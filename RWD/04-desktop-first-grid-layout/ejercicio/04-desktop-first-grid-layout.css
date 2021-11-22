@@ -7,6 +7,10 @@ div.container{
   margin: 0 auto;	
   font-size: 16px;
   max-width: 1024px;
+  display: grid;
+  grid-template-areas: "nav     nav     nav     nav"
+                       "article article article aside" 
+                       "article article article .....";
 }
 
 div.container nav {
@@ -22,7 +26,7 @@ div.container article {
   background-color: blue;
   padding: 1em;
   box-sizing: border-box;
-  background-image: url(img/content-is-like-water-1.jpg);
+  background-image: url(img/content-is-like-water-5.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,19 +41,18 @@ div.container aside {
   grid-area: aside; /* Importante para resolver el ejercicio */
 }
 
-@media all and (min-width: 578px) {
-  div.container {
-    display: grid;
-    grid-template-areas: "nav     nav     nav     nav"
-                         "article article article aside" 
-                         "article article article .....";
-  } 
+@media all and (max-width: 768px) {
   div.container article {
     background-image: url(img/content-is-like-water-3.jpg);
   }
 }
-@media all and (min-width: 768px) {
+@media all and (max-width: 578px) {
+  div.container {
+    grid-template-areas: "nav"
+                         "article"
+                         "aside";
+  } 
   div.container article {
-    background-image: url(img/content-is-like-water-5.jpg);
+    background-image: url(img/content-is-like-water-1.jpg);
   }
 }
