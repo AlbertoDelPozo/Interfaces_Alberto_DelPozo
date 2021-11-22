@@ -150,3 +150,46 @@ div.contenedor footer .social a {
 	padding: 0.7em;
 	flex-grow: 1;
 }
+
+/*MEDIA QUERIES*/
+@media all and (max-width: 100px) {
+	div.contenedor section.main {
+		flex-wrap: wrap;
+	}
+	div.contenedor section.main article {
+		flex-basis: 100%;
+	}
+}
+
+@media all and (max-width: 800px){
+	div.contenedor {
+		flex-direction: column;
+	}
+	div.contenedor header {
+		flex-direction: column;
+		align-items: center;
+		padding: 0px;
+	}
+	div.contenedor header .logo {
+		margin: 0.5rem 0em;
+	}
+	div.contenedor header nav.links {
+		width: 100%;
+	}
+	div.contenedor aside {
+		flex-direction: row;
+		flex: 0;
+	}
+	div.contenedor footer {
+		justify-content: space-between;
+	}
+}
+
+@media all and (max-width: 600px) {
+	div.contenedor aside {
+		flex-direction: column;
+	}
+	div.contenedor footer .links {
+		flex: 1 100%;
+	}
+}
