@@ -6,6 +6,8 @@ div {
     padding: 0.5em;
     margin: 0.5em;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 .element {
     border: 10px solid green;
@@ -22,4 +24,22 @@ div {
     border: 10px solid red;
     padding: 0.5em;
     margin: 0.5em;
+}
+@media all and (min-width: 768px) {
+    .element {
+        width: calc(50% - 1em);
+        color: blue;
+    }
+}
+@media all and (min-width: 900px) {
+    .element {
+        width: calc(33% - 1em);
+        color: green;
+    }
+}
+@media all and (min-width: 1200px) {
+    .element {
+        width: calc(16.66% - 1em);
+        color: red;
+    }
 }
