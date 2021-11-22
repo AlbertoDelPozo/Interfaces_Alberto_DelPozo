@@ -5,7 +5,10 @@ div {
     border: 10px solid black;
     padding: 1em;
     margin: 0.5em;
-    text-align: center;    
+    text-align: center;   
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
 }
 .element {
     border: 10px solid green;
@@ -20,4 +23,28 @@ div {
     border: 10px solid red;
     padding: 0.5em;
     margin: 0.5em;
+}
+@media all and (min-width: 768px) {
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .element {
+        color: blue;
+    }
+}
+@media all and (min-width: 900px) {
+    .row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .element {
+        color: green;
+    }
+}
+@media all and (min-width: 1200px) {
+    .row {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .element {
+        color: red;
+    }
 }
