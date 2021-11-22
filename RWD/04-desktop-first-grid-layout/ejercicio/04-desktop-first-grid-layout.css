@@ -53,6 +53,7 @@ div.container aside {
                          "aside";
   } 
   div.container article {
+    height: 12.5rem;
     background-image: url(img/content-is-like-water-1.jpg);
   }
 }
