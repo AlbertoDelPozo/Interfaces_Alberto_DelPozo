@@ -1,0 +1,32 @@
+#contenedor {
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5em;
+}
+h1 {
+    font-size: 1.5em;
+}
+#prim {
+    width: 90%;
+    margin: 0.5em;
+    background-color: yellow;
+}
+#seg {
+    width: 90%;
+    margin: 0.5em;
+    background-color: blueviolet;
+}
+#ter{
+    width: 90%;
+    margin: 0.5em;
+    background-color: brown;
+}
+#cua {
+    width: 90%;
+    margin: 0.5em;
+    background-color: limegreen;
+}
