@@ -1,0 +1,29 @@
+#contenedor {
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5em;
+}
+h1 {
+    font-size: 1.5em;
+}
+.num {
+    width: 90%;
+    margin: 0.5em;
+    display: none;
+}
+.num:nth-of-type(1) {
+    background-color: yellow;
+}
+.num:nth-of-type(2) {
+    background-color: blueviolet;
+}
+.num:nth-of-type(3) {
+    background-color: brown;
+}
+.num:nth-of-type(4) {
+    background-color: lightgreen;
+}
