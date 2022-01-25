@@ -1,28 +1,49 @@
-function moveRight() {
-    var direction = document.getElementById('right');
-    var movePX = document.getElementById('mov').value;
-    console.log(direction,movePX);
-    var id = setInterval(animate, 1000);
-}
 
-function moveLeft() {
-    var direction = document.getElementById('left');
-    var movePX = document.getElementById('mov').value;
-    console.log(direction,movePX);
-}
+const TIEMPO = 1000;
 
-function moveDown() {
-    var direction = document.getElementById('bottom');
-    var movePX = document.getElementById('mov').value;
-    console.log(direction,movePX);
-}
+document.addEventListener("DOMContentLoaded", () => {
+    // seleccionamos el bloque que queremos mover
+    var bloque = document.querySelector(".block");
 
-function moveUp() {
-    var direction = document.getElementById('top');
-    var movePX = document.getElementById('mov').value;
-    console.log(direction,movePX);
-}
+    // Función para mover el bloque
+    function desplazar(coordenada, direccion) {
+        // variables
+        var inicio = null;
+        var desp = parseInt(mov.value) * direccion;
+        var offset = parseInt(getComputedStyle(bloque).getPropertyValue(coordenada));
+        function step(timestamp) {
+            // comprobación de que el inicio no es null para poner a inicio el tiempo actual
+            if (!inicio){
+                inicio = timestamp;
+            }
+            var progreso = timestamp - inicio;
 
-function animate() {
-    
-}
+            bloque.style.setProperty(coordenada, ((desp * progreso) / TIEMPO) + offset + "px");
+
+            if (progreso < TIEMPO) {
+                window.requestAnimationFrame(step);
+            } else {
+                bloque.style.setProperty(coordenada, (desp + offset) + "px");
+            }
+        }
+
+        window.requestAnimationFrame(step);
+    }
+
+    document.getElementById("right").addEventListener("click", (e) => {
+        desplazar("left", 1);
+        // desplazarDerecha(); Función alternativa. Se crearía una para cada dirección con el valor correspondiente
+    });
+
+    document.getElementById("left").addEventListener("click", (e) => {
+        desplazar("left", -1);
+    });
+
+    document.getElementById("top").addEventListener("click", (e) => {
+        desplazar("top", -1);
+    })
+
+    document.getElementById("bottom").addEventListener("click", (e) => {
+        desplazar("top", 1);
+    })
+})
