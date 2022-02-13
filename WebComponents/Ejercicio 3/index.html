@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <element-details></element-details>
+    
+    <element-details>
+        <span slot="element-name">slot</span>
+        <span slot="description">Un marcador de posición dentro de un componente web 
+            que los usuarios pueden rellenar con su propio marcado, con el efecto
+            de componer diferentes árboles DOM juntos.
+        </span>
+        <dl slot="attributes">
+            <dt>name</dt>
+            <dd>El atributo name del slot</dd>
+        </dl>
+    </element-details>
+    
+    <element-details>
+        <span slot="element-name">template</span>
+        <span slot="description">Un mecanismo para guardar contenido en el lado cliente que o renderiza 
+            cuando la página se carga sino que posteriormente se puede instanciare en tiempo de 
+            ejecución usando js
+        </span>
+    </element-details>
+    <script src="script.js"></script>
+</body>
+</html>
