@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <my-switch id="switch_pruebas"></my-switch>
+    <my-switch estado="on"></my-switch>
+    <my-switch estado="off"></my-switch>
+
+    <div>
+        <button id="apagar">Apagar primer interruptor</button>
+        <button id="encender">Encender primer interruptor</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("apagar").addEventListener("click", () => document.getElementById("switch_pruebas").apagar());
+        document.getElementById("encender").addEventListener("click", () => document.getElementById("switch_pruebas").encender());
+    </script>
+</body>
+</html>
