@@ -1,5 +1,11 @@
-.contenedor {
-    height: 20px;
-    width: 300px;
+#progress {
+    margin-top: 1em;
+    height:  20px;
+    width: 30%;
     border: 1px solid black;
+}
+
+.barra {
+    width: 0;
+    background-color: #ffe6e6;
 }
