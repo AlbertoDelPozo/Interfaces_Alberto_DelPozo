@@ -1,3 +1,16 @@
 .imagenes {
-    background-image: url(../src/images/);
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image: url("src/HTML5.png");
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-name: Carrusel;
+}
+
+@keyframes Carrusel {
+    0% {background-image: url("src/HTML5.png")}
+    25% {background-image: url("src/Javascript.png")}
+    50% {background-image: url("src/CSS3.png")}
+    75% {background-image: url("src/PHP.png")}
 }
