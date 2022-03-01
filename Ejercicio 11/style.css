@@ -9,30 +9,15 @@
   height: 100px;
   width: 100px;
   background-color: red;
-  animation-name: animacion;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  animation-direction: alternate;
-  animation-play-state: paused;
+  transition: 4s all 0.5s ease-in-out;
 }
 
-@keyframes animacion {
-    0%{
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(270deg);
+
+.cajas:hover {
+    transform: rotate(270deg);
         height: 50px;
         width: 50px;
         background-color: blue;
         color: yellow;
         font-size: 1.5em;
-    }
-
-}
-
-.cajas:hover {
-    animation-play-state: running;
 }

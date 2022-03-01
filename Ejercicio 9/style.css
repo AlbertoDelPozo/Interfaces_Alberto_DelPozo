@@ -1,35 +1,23 @@
 .titulo {
-    animation-name: girando;
+    height: 80px;
+    width: 80px;
     animation-duration: 4s;
     animation-delay: 2s;
-    animation-iteration-count: 1;
-    position: relative;
+    animation-fill-mode: backwards;
     animation-timing-function: linear;
-    animation-direction: reverse;
-
-    top: 0px;
-    left: 900px;
+    animation-name: animacion;
 }
 
-@keyframes girando {
+@keyframes animacion {
 
-    33% {
-        top: 0px;
-        left: 600px;
-        transform: rotate(90deg);
-        OTransform: rotate(90deg);
+    from {
+        margin-left: 90%;
+        transform: rotate(0deg);
     }
-    66% {
-        top: 0px;
-        left: 300px;
-        transform: rotate(90deg);
-        OTransform: rotate(90deg);
-    }
-    100% {
-        top: 0px;
-        left: 0px;
-        transform: rotate(90deg);
-        OTransform: rotate(90deg);
+
+    to {
+        margin-left: 0%;
+        transform: rotate(360deg);
     }
 
 }
