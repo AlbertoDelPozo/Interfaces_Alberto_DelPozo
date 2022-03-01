@@ -3,4 +3,33 @@
     animation-duration: 4s;
     animation-delay: 2s;
     animation-iteration-count: 1;
+    position: relative;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+
+    top: 0px;
+    left: 900px;
+}
+
+@keyframes girando {
+
+    33% {
+        top: 0px;
+        left: 600px;
+        transform: rotate(90deg);
+        OTransform: rotate(90deg);
+    }
+    66% {
+        top: 0px;
+        left: 300px;
+        transform: rotate(90deg);
+        OTransform: rotate(90deg);
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+        transform: rotate(90deg);
+        OTransform: rotate(90deg);
+    }
+
 }
